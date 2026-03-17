@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: FM-TG1
+
+description: target group-5bd4ab04-02ad-4523-a808-31612ff22c2d
+
+conditions:
+  allOf:
+    - property:
+        name: Fm-Test-Property
+        operator: is-true
