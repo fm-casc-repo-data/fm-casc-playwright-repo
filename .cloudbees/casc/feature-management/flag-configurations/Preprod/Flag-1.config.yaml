@@ -2,12 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: FM-PERMANENT_FLAG
+flag: Flag-1
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue: true
 
 conditions: []
