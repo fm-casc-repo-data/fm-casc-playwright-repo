@@ -2,6 +2,6 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-properties
 
-name: AutoTest.d336a74c-de5a-4b1c-ad58-6f25111ed78b.Boolean.Property
+name: AutoTest.e1e25368-3d46-4790-8f0c-36cf50694008.Boolean.Property
 type: Boolean
 description: "just description"
