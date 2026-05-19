@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: Flag-Health
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
