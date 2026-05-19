@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: AutoTest.20b4f27d-8fbe-4640-b2a0-ed44a96ca4c1.Boolean.Flag
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  valueWrittenInCode: true
+
+conditions: []

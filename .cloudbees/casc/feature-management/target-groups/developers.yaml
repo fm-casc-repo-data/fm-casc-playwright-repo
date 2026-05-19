@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: developers
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: userId
+        operator: in-array
+        operands:
+            - 123w2323
