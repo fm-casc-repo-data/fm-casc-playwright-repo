@@ -2,14 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: Target-group.d1c25769-8c52-463f-8f65-035f84797017
+name: AutoTest.target-group.42107e61-ee0f-4961-ab62-cec2856e50a1
 
 description: Target group 1
 
 conditions:
   allOf:
     - property:
-        name: Boolean.38465681-036c-4148-9759-45ccbe5c4973
+        name: AutoTest.8f30f629-4886-45d4-b289-1607d627425c.Boolean.Property
         operator: ne
         operands:
             - "false"
